@@ -1,0 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Combo&family=Inter:wght@200;300;400;600&family=Montserrat:wght@500&display=swap');
+:root{
+  --background-color:#ffffff;
+  --bigfont:'Montserrat', sans-serif;
+  --normalfnt:font-family: 'Inter', sans-serif;
+}
+
+body{
+
+}
+h1{
+  font-family: var(--bigfont);
+  font-size:96px;
+}
