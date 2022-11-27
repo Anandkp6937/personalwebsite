@@ -16,4 +16,5 @@ let count=0;
  })
 sendbtn.addEventListener("click",function(){
   console.log("sended");
+  alert("sened");
 })

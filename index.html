@@ -6,6 +6,8 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="https://fontawesome.com/v4/icons/" />
+    <link rel="icon" href="profile.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
   </head>
   <body>
     <!-- navbarr -->
@@ -23,14 +25,20 @@
 
 <!-- photo -->
 <div class="photo">
+
 <img src="profile2.jpg" alt="">
-<h3>I <span class="auto-type"></span> Website</h3>
+
+<div class="h3t">
+  <h3>I <span class="auto-type"></span> Website</h3>
 </div>
-<!-- photo -->
-<div class="main-quote">
-  <h1>Man is made by his belief,<br>As he believes so he becomes </h1>
 
 </div>
+<!-- photo -->
+
+<div class="main-quote">
+  <h1>Man is made by his belief,As he believes so he becomes </h1>
+</div>
+
 <!-- mainquote -->
 
 <div class="info">
@@ -44,13 +52,16 @@ who speaclised mainly On <span class="hash2">PERN</span>  & <span class="hash2">
 
 <!-- skills -->
 <div class="skills" id="skill">
-  <h2>me.<span>skills()</span></h2>
-  <span class="hash">//</span>
-  <p class="json">
+  <div class="">
+    <h2>me.<span>skills()</span></h2>
+    <span class="hash">//</span>
+  </div>
+
+  <!-- <p class="json">
     {
     “developer-skills”:<br><br><br>[<br><br>{“Html”,”css”,”js”,”react","bootstrap”,"sass"},<br><br><br>
 
-                               {“nodejs”,”express”,"nginx",”jwt”,"postman","git","graphql","webpack"},<br><br><br>
+                               {“nodejs”,”express”,"nginx",”jwt”,"postman","git","graphql",<br><br>"webpack"},<br><br><br>
 
                                 {“postgres”,”Mongodb”,"mysql","heroku"}<br><br> ],<br><br><br>
 
@@ -61,24 +72,54 @@ who speaclised mainly On <span class="hash2">PERN</span>  & <span class="hash2">
 
     }
 
-  </p>
+  </p> -->
+  <div class="json">
+    <div class="">
+      <h2>{</h2>
+        <div class="dev-skills">
+        <h4> "developer-skills”:<br><br><br>[<br><br>{“Html”,”css”,”js”,”react","bootstrap”,"sass"},<br><br><br>
+
+                                     {“nodejs”,”express”,"nginx",”jwt”,"postman","git","graphql",<br><br>"webpack"},<br><br><br>
+
+                                      {“postgres”,”Mongodb”,"mysql","heroku"}<br><br> ],
+                                    </h4>
+
+        </div>
+
+
+        <div class="Desi-skills">
+        <h4>  “Designer-skills”:[“figma”,”motion”,"ui"],<br><br><br></h4>
+        </div>
+
+        <div class="other-skill">
+          <h4>  “other-skills”:[“ardunio”,”c”,”linux-kernal”,"electrical-eng"]<br><br></h4>
+
+        </div>
+
+    </div>
+  </div>
+    <h2>}</h2>
 </div>
 
 
 <!-- contact -->
 <div class="contact" id="contact">
-  <h2>me <span>.contact()</span></h2>
-  <span class="hash">//</span>
+
+  <div class="span-contact">
+    <h2>me <span>.contact()</span></h2>
+    <span class="hash">//</span>
+  </div>
 
   <div class="contacklike">
-    <div class="">
+
+    <div class="contactme">
       <p>Contact me on</p>
       <ul>
         <li><a href="mailto:anandkp6937@gmail.com">email</a><i class="fa-solid fa-envelope"></i></li>
         <li><a href="#">whatsapp</a><i class="fa-brands fa-whatsapp"></i></li>
       </ul>
     </div>
-    <hr>
+<div class="spacehr">|</div>
     <div class="likeme">
     <p>like me? follow me on </p>
     <ul>
@@ -97,8 +138,12 @@ who speaclised mainly On <span class="hash2">PERN</span>  & <span class="hash2">
 
 <!-- feedback -->
 <div class="feedback">
-<p>if(you-like-my-website)</p>
-<span class="hash">{</span>
+
+<div class="">
+  <p>if(you-like-my-website)</p>
+  <span class="hash">{</span>
+</div>
+
   <form class="" action="index.html" method="post">
     <input type="text" placeholder="Enter your name"name="" value="">
     <div class="btn">
@@ -107,6 +152,7 @@ who speaclised mainly On <span class="hash2">PERN</span>  & <span class="hash2">
 
     </div>
   </form>
+
 <span class="hash">}</span>
 </div>
 
